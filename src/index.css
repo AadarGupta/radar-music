@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    background-color: black;
+}
+
+.App {
+    background-color: black;
+}
+
 .homeImage {
     height: 50vh;
     width: auto;

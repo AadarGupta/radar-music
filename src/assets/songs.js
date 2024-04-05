@@ -23,21 +23,21 @@ export const songs = [
         lyrics: ""
     },
     {
+        name: "Tu",
+        coverart: require("./images/tu.jpeg"),
+        embedLink: 'https://open.spotify.com/embed/track/5cswCa1gA80ks1y6NgLmSb?utm_source=generator',
+        lyrics: ""
+    },
+    {
         name: "Dhoondhla",
-        coverart: require("./images/dhoondhla.png"),
+        coverart: require("./images/dhoondhla.jpeg"),
         embedLink: 'https://open.spotify.com/embed/track/5rrgBOG2M0mrmR8RKCI7ya?utm_source=generator',
         lyrics: ""
     },
     {
         name: "Doob Gaya",
-        coverart: require("./images/doobgaya.png"),
+        coverart: require("./images/doobgaya.jpeg"),
         embedLink: 'https://open.spotify.com/embed/track/5SYLtFEqojUnFt8bWwRJWy?utm_source=generator',
         lyrics: ""
     },
-    {
-        name: "Tu",
-        coverart: require("./images/tu.png"),
-        embedLink: 'https://open.spotify.com/embed/track/5cswCa1gA80ks1y6NgLmSb?utm_source=generator',
-        lyrics: ""
-    }
 ]

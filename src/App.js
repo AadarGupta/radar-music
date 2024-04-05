@@ -11,7 +11,6 @@ function App() {
       <Home />
       <Music />
       <Contact />
-
       <Links />
     </div>
   );

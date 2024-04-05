@@ -37,7 +37,7 @@ const Navbar = () => {
         <img src={logo} className='h-20' alt="logo" />
         <ul className='hidden md:flex'>
             {navLinks.map(link => (
-                <li key={link.id} className='px-4 cursor-pointer font-medium text-gray-500 hover:scale-110 hover:text-white duration-200'><Link to={link.name} smooth duration={500}>{link.name}</Link></li>
+                <li key={link.id} className='px-4 text-2xl cursor-pointer font-medium text-gray-500 hover:scale-110 hover:text-white duration-200'><Link to={link.name} smooth duration={500}>{link.name}</Link></li>
             ))}
         </ul>
 
